@@ -398,3 +398,4 @@ insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
 	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
 
+2021-02-19 19:27:13.410  WARN 20904 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h26m52s527ms63µs200ns).
